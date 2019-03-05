@@ -1,0 +1,65 @@
+{
+  "name": "waterloop-team-manager-front",
+  "version": "1.0.0",
+  "description": "Front end for the Waterloop team manager application",
+  "main": "app.js",
+  "scripts": {
+    "dist": "webpack --mode development",
+    "start": "node_modules/.bin/webpack-dev-server --mode development --open --hot",
+    "build": "node_modules/.bin/webpack --config webpack.prod.js --mode production",
+    "server": "node_modules/.bin/http-server ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuriAmari/Waterloop-Team-Manager.git"
+  },
+  "author": "Nuri Amari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuriAmari/Waterloop-Team-Manager/issues"
+  },
+  "homepage": "https://github.com/NuriAmari/Waterloop-Team-Manager#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.11.1",
+    "eslint-config-google": "^0.11.0",
+    "extract-text-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.8",
+    "@fortawesome/free-solid-svg-icons": "^5.5.0",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "acorn": "^6.0.5",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "i": "^0.3.6",
+    "jquery": "^3.3.1",
+    "npm": "^6.4.1",
+    "prettier": "^1.15.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^6.5.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.0.3"
+  }
+}
